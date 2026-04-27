@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Onluxe Living</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background: #0d0d0d;
+    color: #fff;
+}
+
+/* NAVBAR */
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.nav img {
+    height: 70px;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.hero p {
+    color: #c9a96e;
+}
+
+/* SECTION */
+.section {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+}
+
+/* IMAGE GRID */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.grid img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* DESKTOP */
+@media(min-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 40px;
+    color: #aaa;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- NAV -->
+<div class="nav">
+    <img src="logo.jpg" alt="Onluxe Living">
+</div>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>ONLUXE LIVING</h1>
+    <p>Interior Design | Luxury Living</p>
+</div>
+
+<!-- LIVING ROOM -->
+<div class="section">
+    <h2>LIVING ROOM TRANSFORMATION</h2>
+    <div class="grid">
+        <img src="living-room.jpg">
+    </div>
+</div>
+
+<!-- DINING ROOM -->
+<div class="section">
+    <h2>DINING ROOM TRANSFORMATION</h2>
+    <div class="grid">
+        <img src="dining-room.jpg">
+    </div>
+</div>
+
+<!-- CORRIDOR -->
+<div class="section">
+    <h2>CORRIDOR TRANSFORMATION</h2>
+    <div class="grid">
+        <img src="corridor.jpg">
+    </div>
+</div>
+
+<!-- BEDROOM 1 -->
+<div class="section">
+    <h2>MASTER BEDROOM</h2>
+    <div class="grid">
+        <img src="bedroom-dark.jpg">
+    </div>
+</div>
+
+<!-- BEDROOM 2 -->
+<div class="section">
+    <h2>BEDROOM TRANSFORMATION</h2>
+    <div class="grid">
+        <img src="bedroom-light.jpg">
+    </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    © 2026 Onluxe Living — Designed for luxury spaces
+</div>
+
+</body>
+</html>
